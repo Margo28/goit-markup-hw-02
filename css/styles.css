@@ -4,6 +4,8 @@
 --accent-color: #2196F3;
 --secondary-title-color:#212121;
 --black-color: #000000;
+--footer-contacts-color:rgba(255, 255, 255, 0.6);
+
 }
 
 /* Стили студия */
@@ -108,6 +110,44 @@ h1{
     font-size: 16px;
     line-height: 1.187;
     letter-spacing: 0.03em;
-    color: var(--main-text-color)
+    color: var(--main-text-color);
+}
+.our-proposals{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.142;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-text-color);
+    background-color: rgba(47, 48, 58, 0.8);
+}
+.address{
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+   
+}
+.contacts{
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--footer-contacts-color);
+}
 
+.join{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-text-color)
+}
+
+.page-footer{
+    background-color: rgba(47, 48, 58, 0.8);;
+}
+.link-social:hover,
+.link-social:focus{
+   color: var(--accent-color);
 }
