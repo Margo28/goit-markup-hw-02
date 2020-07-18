@@ -69,10 +69,6 @@ h1{
 .nav-link:focus{
     color: var(--accent-color)
 }
-
-.nav-list .nav-link .current{
-    color: var(--accent-color);
-}
  
 .primary-button{
     font-weight: bold;
@@ -150,4 +146,34 @@ h1{
 .link-social:hover,
 .link-social:focus{
    color: var(--accent-color);
+}
+
+/* Портфолио  */
+.filter{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--secondary-title-color);
+}
+.filter:hover,
+.filter:focus{
+   color: var(--title-text-color);
+   background-color: var(--accent-color);
+}  
+
+.portfolio-titles{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--secondary-title-color);
+}
+
+.portfolio-description{
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
 }
