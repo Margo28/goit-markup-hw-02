@@ -12,6 +12,7 @@
 
 body{
     font-family: 'Roboto', sans-serif;
+    font-style: normal;
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
@@ -24,12 +25,13 @@ h1{
     line-height: 1.363;
     text-align: center;
     letter-spacing: 0.06em;
+    text-transform: uppercase;
     color: var(--title-text-color);
     background-color: rgba(47, 48, 58, 0.8);
 }
 
  p{
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1.187;
     letter-spacing: 0.03em;
     color: var(--main-text-color);
@@ -70,9 +72,25 @@ h1{
     text-decoration: none; 
 }
 
+.address-link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.142;
+    letter-spacing: 0.02em;
+    color: var(--main-text-color);
+    text-decoration: none; 
+}
+.address-link:hover,
+.address-link:focus{
+    color: var(--accent-color)
+}
+
 .nav-link:hover,
 .nav-link:focus{
     color: var(--accent-color)
+}
+.nav-list .nav-link.current{
+    color: var(--accent-color);
 }
  
 .primary-button{
@@ -123,6 +141,7 @@ h1{
     background-color: rgba(47, 48, 58, 0.8);
 }
 .address{
+    font-style: normal;
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
