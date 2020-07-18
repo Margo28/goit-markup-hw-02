@@ -148,10 +148,7 @@ h1{
 .page-footer{
     background-color: rgba(47, 48, 58, 0.8);;
 }
-.link-social:hover,
-.link-social:focus{
-   color: var(--accent-color);
-}
+
 
 /* Портфолио  */
 .filter{
