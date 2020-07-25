@@ -7,6 +7,18 @@
 --footer-contacts-color:rgba(255, 255, 255, 0.6);
 
 }
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
 
 /* Стили студия */
 
@@ -17,6 +29,7 @@ body{
     line-height: 1.714;
     letter-spacing: 0.03em;
     color: var(--main-text-color);
+
 }
 
 h1{
@@ -35,6 +48,15 @@ h1{
     line-height: 1.187;
     letter-spacing: 0.03em;
     color: var(--main-text-color);
+ }
+
+ .container{
+     margin-right: auto;
+     margin-left: auto;
+     width: 1170px;
+     padding-left: 15px;
+     padding-right: 15px;
+     background-color: blueviolet;
  }
 
  .logo{
@@ -60,6 +82,8 @@ h1{
  }
 
 .list{
+    padding: 0px;
+    margin: 0px;
     list-style: none;
 }
 
@@ -91,9 +115,14 @@ h1{
 }
 .nav-list .nav-link.current{
     color: var(--accent-color);
+    
 }
  
 .primary-button{
+    display: inline-block;
+    border-radius: 4px;
+    padding: 10px 32px;
+    
     font-weight: bold;
     font-size: 16px;
     line-height: 1.875;
